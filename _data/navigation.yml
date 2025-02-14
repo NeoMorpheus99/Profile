@@ -23,8 +23,8 @@ main:
   - title: "CV"
     url: /cv/
 
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Certificates/Awards"
+    url: /certificates/
 
   # - title: "Projects"
   #   url: /projects/

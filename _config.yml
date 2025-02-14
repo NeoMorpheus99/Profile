@@ -22,7 +22,7 @@ repository: "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "halfphoto.jpg"
+  avatar: "profile.jpg"
   name: "Norbu Tshering Lepcha"
   # pronouns: # example: "she/her"
   bio: "Persuing CSS"
@@ -220,6 +220,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   projects:
+    output: true
+    permalink: /:collection/:path/
+  certificates:
     output: true
     permalink: /:collection/:path/
 

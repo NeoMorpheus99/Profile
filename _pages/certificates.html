@@ -1,0 +1,95 @@
+---
+layout: archive
+title: "Certificates"
+permalink: /certificates/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div class="projects-container">
+    <div class="projects-grid">
+        {% assign item_count = 0 %}
+
+        {% for post in site.certificates %}
+        {% if item_count == 0 %}
+        <div class="row">
+            {% endif %}
+
+            {% include archive-column.html %}
+
+            {% assign item_count = item_count | plus: 1 %}
+
+            {% if item_count == 3 %}
+        </div> <!-- Close the row after 3 items -->
+        {% assign item_count = 0 %}
+        {% endif %}
+        {% endfor %}
+
+        <!-- Close last row if it's incomplete -->
+        {% if item_count > 0 %}
+    </div>
+    {% endif %}
+</div>
+</div>
+
+<style>
+    .projects-container {
+        margin: 0 auto;
+    }
+
+    .projects-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .row {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        /* Instead of space-between */
+        gap: 20px;
+        /* Ensures proper spacing between items */
+    }
+
+    .project-item {
+        width: calc(33.33% - 20px);
+        /* 3 columns */
+        background-color: #f9f9f9;
+        padding: 15px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+    }
+
+    .archive__item-title {
+        font-size: 1.5em;
+        margin-top: 15px;
+    }
+
+    .archive__item-excerpt {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+
+    /* Responsive design */
+    @media (max-width: 768px) {
+        .project-item {
+            width: calc(50% - 20px);
+            /* 2 columns on medium screens */
+        }
+    }
+
+    @media (max-width: 480px) {
+        .project-item {
+            width: 100%;
+            /* 1 column on small screens */
+        }
+    }
+</style>
