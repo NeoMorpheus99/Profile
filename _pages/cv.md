@@ -9,40 +9,90 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+| Degree                         | College/University | Year of Graduation | Marks |
+| ------------------------------ | ------------------ | ------------------ | ----- |
+| Ph.D in Version Control Theory | GitHub University  | 2018 (expected)    | N/A   |
+| M.S. in Jekyll                 | GitHub University  | 2014               | N/A   |
+| B.S. in GitHub                 | GitHub University  | 2012               | N/A   |
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Work experience
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<table border="1">
+  <thead>
+    <tr>
+      <th>Semester</th>
+      <th>Position</th>
+      <th>Institution</th>
+      <th>Duties</th>
+      <th>Supervisor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spring 2024</td>
+      <td>Academic Pages Collaborator</td>
+      <td>GitHub University</td>
+      <td>Updates and improvements to template</td>
+      <td>The Users</td>
+    </tr>
+    <tr>
+      <td>Fall 2015</td>
+      <td>Research Assistant</td>
+      <td>GitHub University</td>
+      <td>Merging pull requests</td>
+      <td>Professor Hub</td>
+    </tr>
+    <tr>
+      <td>Summer 2015</td>
+      <td>Research Assistant</td>
+      <td>GitHub University</td>
+      <td>Tagging issues</td>
+      <td>Professor Git</td>
+    </tr>
+  </tbody>
+</table>
 
-Publications
-======
+# Skills
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Semester</th>
+      <th>Position</th>
+      <th>Institution</th>
+      <th>Duties</th>
+      <th>Supervisor</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spring 2024</td>
+      <td>Academic Pages Collaborator</td>
+      <td>GitHub University</td>
+      <td>Updates and improvements to template</td>
+      <td>The Users</td>
+    </tr>
+    <tr>
+      <td>Fall 2015</td>
+      <td>Research Assistant</td>
+      <td>GitHub University</td>
+      <td>Merging pull requests</td>
+      <td>Professor Hub</td>
+    </tr>
+    <tr>
+      <td>Summer 2015</td>
+      <td>Research Assistant</td>
+      <td>GitHub University</td>
+      <td>Tagging issues</td>
+      <td>Professor Git</td>
+    </tr>
+  </tbody>
+</table>
+
+# Publications
+
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

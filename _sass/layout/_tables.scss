@@ -6,12 +6,16 @@ table {
   margin-bottom: 1em;
   width: 100%;
   font-family: $global-font-family;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   border-collapse: collapse;
   border: 1px solid var(--global-border-color);
 
   & + table {
     margin-top: 1em;
+  }
+
+  tr:hover {
+    background-color: green; /* Change to desired hover color */
   }
 }
 
@@ -33,6 +37,8 @@ td {
   border-right: 1px solid var(--global-border-color);
 }
 
-tr, td, th {
+tr,
+td,
+th {
   vertical-align: middle;
 }

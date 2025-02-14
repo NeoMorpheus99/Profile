@@ -15,13 +15,13 @@
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
 
     &:hover {
       text-decoration: underline;
 
       img {
-        box-shadow: 0 0 10px rgba(#000, 0.25);
+        box-shadow: 0 0 30px rgba(#000, 0.25);
       }
     }
   }
@@ -42,7 +42,6 @@
 .archive__item-title {
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-
   a + a {
     opacity: 0.5;
   }
@@ -50,7 +49,6 @@
 
 /* remove border*/
 .page__content {
-
   .archive__item-title {
     margin-top: 1em;
     border-bottom: none;
@@ -80,10 +78,9 @@
   }
 
   .archive__item-title {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
-
 
 /*
    List view
@@ -107,7 +104,6 @@
   }
 }
 
-
 /*
    Grid view
    ========================================================================== */
@@ -121,7 +117,7 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-size: $type-size-5;
+    font-size: $type-size-6;
   }
 
   .archive__item-excerpt {
@@ -150,7 +146,6 @@
     }
   }
 }
-
 
 /*
    Features

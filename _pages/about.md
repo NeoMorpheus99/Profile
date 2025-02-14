@@ -1,49 +1,34 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Brief Bio"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+**Introduction**
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I am Norbu Tshering Lepcha, a passionate and driven student from Bhutan, a graduate with honors in Computer Science and Systems Engineering. With a strong interest in the fields of Computer Science, Artificial Intelligence (AI), Machine Learning (ML), and Cybersecurity, I am eager to explore how these technologies can be leveraged for the betterment of society. I aspire to contribute significantly towards sustainable development through innovative technological solutions, especially in a rapidly advancing digital world.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+**1. Academic Background and Technical Skills**
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I have developed a deep understanding of fundamental computer science principles, programming languages, and system engineering concepts. My coursework has equipped me with the skills to tackle complex problems using algorithms, data structures, and mathematical modeling. I am proficient in several programming languages including Python, C and C++, which I have used extensively for my projects. Additionally, I have hands-on experience with tools and technologies such as machine learning libraries (TensorFlow, Scikit-learn), AI development platforms, and cybersecurity tools.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+**2. Passion for AI and ML**
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Artificial Intelligence and Machine Learning have always fascinated me due to their potential to revolutionize industries and improve human lives. I have worked in projects that involved data analysis, predictive modeling, and natural language processing. I believe that AI and ML are not just transformative technologies, but also tools that can solve some of the most pressing challenges of our time. From healthcare to education, I aim to apply these technologies to make impactful contributions to society.
 
-**Markdown generator**
+**3. Focus on Cybersecurity**
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+In an increasingly digital world, cybersecurity has become one of the most critical areas of concern. I have dedicated time to understanding cybersecurity principles, threat mitigation strategies, and network security protocols. My goal is to contribute to the development of secure systems and applications that protect users' data and privacy, ensuring trust in the digital world. I am particularly interested in the intersection of AI and cybersecurity, exploring how AI can be used to predict, detect, and respond to cyber threats in real-time.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+**4. Commitment to Socially Sustainable Development**
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+I am deeply committed to social sustainable development and firmly believe that technology can drive positive change. In my home country of Bhutan, where preserving cultural heritage and maintaining environmental balance are important, I see the potential to integrate technological solutions that align with sustainable development goals. I envision creating applications and systems that can address challenges such as improving access to education, optimizing energy usage, and enabling efficient healthcare services.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+**5. Future Aspirations and Contribution to the Academic Community**
+
+My future aspirations are to pursue advanced studies and research in AI, ML, and cybersecurity, to deepen my knowledge and expand my horizons. I am particularly excited about the prospect of working with faculty members who share my interests in these fields, as well as collaborating with peers from diverse backgrounds. I am also eager to contribute to the academic community by engaging in research projects, discussions, and technology-driven initiatives that promote both academic excellence and social responsibility.
+
+<!-- In conclusion, I am highly motivated and enthusiastic about the opportunity to further my education and contribute to groundbreaking research in AI, ML, and cybersecurity. I believe that my technical expertise, passion for sustainable development, and drive to make a positive impact align well with the values of your institution. I am confident that my experiences, combined with the resources and mentorship available at [University Name], will enable me to achieve my goals and contribute meaningfully to society. -->
