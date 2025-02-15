@@ -13,9 +13,9 @@ title: "Norbu Tshering Lepcha"
 title_separator: "-"
 name: &name "Your Name"
 description: &description "personal description"
-url: https://neomorpheus99.github.io/Profile # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl: "/Profile" # the subpath of your site, e.g. "/blog"
-repository: "NeoMorpheus99/NeoMorpheus99.github.io/Profile"
+url: https://neomorpheus99.github.io# the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+baseurl: "" # the subpath of your site, e.g. "/blog"
+repository: "NeoMorpheus99/neomorpheus99.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
