@@ -25,7 +25,7 @@ author:
   avatar: "halfphoto.jpg"
   name: "Norbu Tshering Lepcha"
   # pronouns: # example: "she/her"
-  bio: "Persuing CSS"
+  # bio: "Persuing CSS"
   location: "Thimphu, Bhutan"
   # employer: ""
   uri: www.teelepcha.com
@@ -46,7 +46,7 @@ author:
   bitbucket: # Username - Update with your username on the site
   codepen: # Username
   dribbble: # Username
-  github: "NeoMorpheus99"
+  # github: "NeoMorpheus99"
   kaggle: # Username
   stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
