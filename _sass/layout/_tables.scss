@@ -15,12 +15,12 @@ table {
   }
 
   tr:hover {
-    background-color: green; /* Change to desired hover color */
+    background-color: rgb(154, 231, 154); /* Change to desired hover color */
   }
 }
 
 thead {
-  background-color: var(--global-border-color);
+  background-color: blue($color: #000000);
   border-bottom: 1px solid var(--global-border-color);
 }
 
@@ -29,6 +29,7 @@ th {
   font-weight: bold;
   text-align: left;
   border-right: 1px solid var(--global-border-color);
+  background-color: rgba(127, 255, 212, 0.767);
 }
 
 td {

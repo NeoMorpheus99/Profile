@@ -9,7 +9,7 @@ redirect_from:
 
 **Introduction**
 
-I am Norbu Tshering Lepcha, a passionate and driven student from Bhutan, a graduate with honors in Computer Science and Systems Engineering. With a strong interest in the fields of Computer Science, Artificial Intelligence (AI), Machine Learning (ML), and Cybersecurity, I am eager to explore how these technologies can be leveraged for the betterment of society. I aspire to contribute significantly towards sustainable development through innovative technological solutions, especially in a rapidly advancing digital world.
+I am **Norbu Tshering Lepcha**, a passionate and driven student from **Bhutan**, a graduate with honors in Computer Science and Systems Engineering. With a strong interest in the fields of Computer Science, Artificial Intelligence (AI), Machine Learning (ML), and Cybersecurity, I am eager to explore how these technologies can be leveraged for the betterment of society. I aspire to contribute significantly towards sustainable development through innovative technological solutions, especially in a rapidly advancing digital world.
 
 **1. Academic Background and Technical Skills**
 

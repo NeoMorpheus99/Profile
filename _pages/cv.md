@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Curriculum vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,106 +9,73 @@ redirect_from:
 
 {% include base_path %}
 
+# Projects
+
+[Details of the Project worked](/projects/)
+
+# Certificates and awards
+
+[Details of Certificates](/certificates/)
+
 # Education
 
-| Degree                         | College/University | Year of Graduation | Marks |
-| ------------------------------ | ------------------ | ------------------ | ----- |
-| Ph.D in Version Control Theory | GitHub University  | 2018 (expected)    | N/A   |
-| M.S. in Jekyll                 | GitHub University  | 2014               | N/A   |
-| B.S. in GitHub                 | GitHub University  | 2012               | N/A   |
+| Education Level                                 | College/University                                               | Year of Graduation |
+| ----------------------------------------------- | ---------------------------------------------------------------- | ------------------ |
+| B.Tech Computer Science and Systems Engineering | [KIIT university](https://kiit.ac.in/)                           | 2025               |
+| Diploma in Civil Engineering                    | [Jigme Namgyel Engineering College](https://www.jnec.edu.bt/en/) | 2017               |
+| BCSEA (12th Board)                              | YHSS                                                             | 2014               |
 
 # Work experience
 
 <table border="1">
   <thead>
     <tr>
-      <th>Semester</th>
       <th>Position</th>
-      <th>Institution</th>
-      <th>Duties</th>
-      <th>Supervisor</th>
+      <th>Task</th>
+      <th>Employeer</th>
+      <th>Year</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Spring 2024</td>
-      <td>Academic Pages Collaborator</td>
-      <td>GitHub University</td>
-      <td>Updates and improvements to template</td>
-      <td>The Users</td>
+      <td>Engineer and Extenion Incharge</td>
+      <td>Overall Management of the Extension office along with the engineering task such as building inspection and quality assurance</td>
+      <td>Bhutan Insurance Limited</td>
+      <td>2017 - 2020 </td>
     </tr>
-    <tr>
-      <td>Fall 2015</td>
-      <td>Research Assistant</td>
-      <td>GitHub University</td>
-      <td>Merging pull requests</td>
-      <td>Professor Hub</td>
-    </tr>
-    <tr>
-      <td>Summer 2015</td>
-      <td>Research Assistant</td>
-      <td>GitHub University</td>
-      <td>Tagging issues</td>
-      <td>Professor Git</td>
-    </tr>
-  </tbody>
+    </tbody>
 </table>
 
-# Skills
+## Skills
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Semester</th>
-      <th>Position</th>
-      <th>Institution</th>
-      <th>Duties</th>
-      <th>Supervisor</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Spring 2024</td>
-      <td>Academic Pages Collaborator</td>
-      <td>GitHub University</td>
-      <td>Updates and improvements to template</td>
-      <td>The Users</td>
-    </tr>
-    <tr>
-      <td>Fall 2015</td>
-      <td>Research Assistant</td>
-      <td>GitHub University</td>
-      <td>Merging pull requests</td>
-      <td>Professor Hub</td>
-    </tr>
-    <tr>
-      <td>Summer 2015</td>
-      <td>Research Assistant</td>
-      <td>GitHub University</td>
-      <td>Tagging issues</td>
-      <td>Professor Git</td>
-    </tr>
-  </tbody>
-</table>
+### 🖥️ Programming Languages
 
-# Publications
+- **Python**: Internediate
+- **JavaScript**: Intermediate
+- **C++**: Intermediate
+- **C**: Intermediate
 
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### ⚙️ Tools & Technologies
+
+- **React**: Intermediate
+- **Node.js**: Intermediate
+- **MySQL**:Intermediate
+- **AutoCad**: Advanced
+- **SketchUp**: Advanced
+- **MS office tools (Excel, words, etc)**: Advanced
+- **Blender 3D modelling software**: Advanced
+- **DaVinci Resolve**: Advanced
+
+### 🎨 Design & Creativity
+
+- **UI/UX Design**: Intermediate
+- **Adobe Photoshop**: Intermediate
+- **Adobe Illustrator**: Intermediate
+
+# Languages
+
+- **English**: Advanced (**IELTS Band 8**)
+- **Dzongkha**: National Language
+- **Lepcha**: Mother Tongue
+- **Hindi**: Intermediate
+- **Nepali**: Intermediate
