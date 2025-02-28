@@ -22,13 +22,13 @@ repository: "NeoMorpheus99/neomorpheus99.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar: "/images/halfphoto.jpg"
+  avatar: images/halfphoto.jpg
   name: "Norbu Tshering Lepcha"
   # pronouns: # example: "she/her"
   # bio: "Persuing CSS"
   location: "Thimphu, Bhutan"
   # employer: ""
-  uri: www.teelepcha.com
+  # uri: www.teelepcha.com
   email: "norbutlepcha@gmail.com"
   contact: +975-17922146
 
